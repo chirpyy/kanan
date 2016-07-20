@@ -4,7 +4,7 @@
 var bm1 = scan('client.exe', '80 BF 88 00 00 00 00 57 74 0D');
 var bm2 = scan('client.exe', '80 BE 88 00 00 00 00 74 ?? B9 ?? ?? ?? ?? E8 ?? ?? ?? ?? 83 F8 01 75');
 
-if (bm1 == NULL || bm2 == null)
+if (bm1 == NULL || bm2 == NULL)
 	console.log('Failed to apply bitmap patch.');
 else
 {
