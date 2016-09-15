@@ -12,7 +12,6 @@ ElfLagFix.js
 EnableFSAA.js
 EnableInterfaceWhileDead.js
 FarAltText.js
-PersistentHideInterface.js
 FOVChange.js
 FreeIndoorCamera.js
 FreezeTimeOfDay.js
@@ -40,6 +39,7 @@ NoPlayerZoomTransparency.js
 NoSkillRankUpWindow.js
 NPCFastText.js
 OneClickRevive.js
+PersistentHideInterface.js
 RangedAttackSwap.js
 RemoveDungeonFog.js
 RemoveScreenShake.js
