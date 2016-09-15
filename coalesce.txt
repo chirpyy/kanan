@@ -12,7 +12,7 @@ ElfLagFix.js
 EnableFSAA.js
 EnableInterfaceWhileDead.js
 FarAltText.js
-FighterNoForce.js
+PersistentHideInterface.js
 FOVChange.js
 FreeIndoorCamera.js
 FreezeTimeOfDay.js
