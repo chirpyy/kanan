@@ -1,3 +1,4 @@
+// Description:
 // Reduces font size to bitmap-size, close to 8px in size. (created by Blade3575)
 
 var bm1 = scan('80 BF 88 00 00 00 00 57 74 0D');
