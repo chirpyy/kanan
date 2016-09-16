@@ -1,3 +1,5 @@
+// Bypass "Skipped repeated messages for network stability." error message while chatting.
+
 // Super simple, just open ida unicode string view and search for
 // code.interface.window.main_chat.msg_omit_same
 // xrefs
