@@ -1,5 +1,5 @@
 // Description:
-// Override and increase the Range of Vision value to see render more  from the distance. (created by Rydian)
+// Override and increase the Range of Vision value in the Options menu to render more from distance. (created by Rydian)
 
 // Configuration:
 // Set this to your desired range of vision. For reference, Dunbarton maxes out at 15000.
