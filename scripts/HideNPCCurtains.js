@@ -1,5 +1,5 @@
 // Description: 
-// Hide the black border curtains at the top and bottom of the screen while talking to NPCs, viewing a cutscene or using a moon gate. (Created by Step29)
+// Hide the black border curtains at the top and bottom of the screen while talking to NPCs, viewing a cutscene or using a moon gate. (created by Step29)
 
 var pattern = scan('55 8b ec 8a 45 08 56 8b f1 38 06');
 
