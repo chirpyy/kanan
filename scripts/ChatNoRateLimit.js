@@ -1,3 +1,5 @@
+// Bypass "You cannot enter multiple messages so quickly. Please wait a moment and try again." error message while chatting.
+
 // Easier than ChatAllowSameMsg.
 // IDA unicode string view search for:
 // code.interface.pli_chathelper.1
