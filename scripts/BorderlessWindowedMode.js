@@ -1,3 +1,4 @@
+// Description:
 // While in windowed mode, stretch Mabinogi's window till the edges of the screen just until the taskbar and remove all borders around it.
 
 // Native methods used by this script.
