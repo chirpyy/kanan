@@ -1,4 +1,5 @@
-// Description: Load other utilities of the .DLL extension onto the Mabinogi client.
+// Description: 
+// Load other utilities of the .DLL extension onto the Mabinogi client.
 
 // Configuration:
 // Add the path of any dlls you want to load to this array.  The path is relative to the directory kanan.py is located.
