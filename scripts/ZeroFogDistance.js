@@ -1,3 +1,4 @@
+// Description:
 // Stops fog from rendering in the distance. Works best when combied with RenderDistance.js. (created by Step29)
 
 var pattern1 = scan('D9 45 14 5D C2 10');
