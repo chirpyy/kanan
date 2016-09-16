@@ -3,8 +3,8 @@ BitmapFont.js
 ChatAllowSameMsg.js
 ChatNoRateLimit.js
 ChatToMiniGamers.js
-ClientSideDevCat.js
 ColorAltText.js
+devCATEffects.js
 DisableScreenFlash.js
 DontTargetNPCs.js
 DungeonMapResize.js
