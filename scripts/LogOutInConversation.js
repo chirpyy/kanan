@@ -1,5 +1,5 @@
 // Description:
-// Allow logging off while talking to an NPC. (created by Rydian)
+// Automatically confirms the "You cannot log off while in conversation with an NPC." error message while attempting to log off in NPC conversation. (created by Rydian)
 
 // Walkthrough:
 // 83 78 4C 00           - cmp dword ptr [eax+4C],00
