@@ -1,4 +1,6 @@
-// Refer to http://wiki.mabinogiworld.com/view/Lag#Lowering_your_Maximum_Transmission_Unit_.28MTU.29
+// Lower your MTU to reduce latency between the client and server.
+// Fore more information refer to http://wiki.mabinogiworld.com/view/Lag#Lowering_your_Maximum_Transmission_Unit_.28MTU.29
+
 // To change MTU on channel change/login
 //  1. Set NET_INTERFACE to the correct interface name for your computer
 //  2. Set LOW_MTU to the lowest value you're comfortable with, 386 is a good default
