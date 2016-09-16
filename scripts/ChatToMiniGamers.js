@@ -1,5 +1,7 @@
+// Description:
 // Allow you to start a chat with friends who have their status set to "Mini-game".
 
+// Walkthrough:
 // From interface.english.txt we find the string to search for by looking for
 // 'Your friend is too busy'.
 // IDA unicode string view -> code.interface.pli_windowmessengermain.15
