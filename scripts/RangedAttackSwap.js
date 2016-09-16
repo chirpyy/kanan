@@ -7,8 +7,6 @@
 // Find mov eax,00005209 
 // That's the ranged attack skill ID to change. (21001)
 
-
-
 var pattern = scan('B8 09 52 00 00 5F');
 // patch(pattern.add(1), 0x0A, 0x52); //Magnum Shot
 // patch(pattern.add(1), 0x0C, 0x52); //Arrow Revolver
