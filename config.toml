@@ -519,3 +519,9 @@ delay = false
 enable = true
 coalesce = true
 delay = false
+
+#Displays CP (combat power) numerically on players and other entities.
+[ShowCombatPowerPost]
+enable = true
+coalesce = true
+delay = false
