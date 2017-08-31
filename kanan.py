@@ -385,16 +385,14 @@ class KananApp:
             clientpath = str(mabidir / "Client.exe")
         # Try starting mabi.
         try:
-            subprocess.Popen(clientpath + " " + args, cwd=mabipath)
+            # Process id is contained in the Popen instance
+            process = subprocess.Popen(clientpath + " " + args, cwd=mabipath)
+            return process.pid
         except OSError:
             print("Couldn't start Client.exe.")
             print("Make sure you're running kanan as administrator!")
             input()
             sys.exit()
-        # Now we need to wait until mabi has been unpacked.
-        # TODO: Figure out a better way please!!!
-        time.sleep(1)
-        return get_newest_client_pid()
 
     def run(self):
         """Runs kanan."""
