@@ -3,16 +3,16 @@
 
 //Walkthrough:
 //Find the memory address that contains the current chat tab.
-//In NA, the chat tab values are 0/2/4/5/6/7/8 (4byte).
+//In NA, the chat tab values are 0/2/3/4/5/6/7 (4byte).
 //That's All, Party, Whisper, Guild, Trade, etc.
-//When it's set to 8, reset it to 0 to avoid going to squad chat.
+//When it's set to 7, reset it to 0 to avoid going to squad chat.
 
 // The original code signature.
 var thePatchLocation = scan('89 BE 58 01 00 00 8B 8C');
 
 // The new code that'll be injected.
 var thePatch = [
-	0x83, 0xFF, 0x08,						//cmp edi,08
+	0x83, 0xFF, 0x07,						//cmp edi,07
 	0x0F, 0x85, 0x02, 0x00, 0x00, 0x00,		//jne nochange
 	0x31, 0xFF,								//xor edi,edi
 											//nochange:
